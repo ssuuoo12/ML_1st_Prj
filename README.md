@@ -30,7 +30,7 @@
 - 머신러닝 프로젝트 개발 및 관리 방법 습득
 
 ## 사용 기술
-- Python 3.x
+- Python 3.10.6
 - 주요 라이브러리:
   - scikit-learn
   - pandas
@@ -38,8 +38,7 @@
   - matplotlib / seaborn
 
 ## 프로젝트 구조
-ML_1st_Prj/
-│
+```
 ├── dataset/               # 데이터셋 저장 디렉토리
 │   └── E.csv              # E-commerce 고객 데이터
 │
@@ -57,7 +56,7 @@ ML_1st_Prj/
 ├── scaler_clf.pkl             # 분류 모델용 데이터 스케일러
 │
 └── README.md              # 프로젝트 설명 문서
-
+```
 
 ## 주요 기능
 총 구매 금액, 구매한 아이템 수, 마지막 구매 이후 일수를 입력하여 고객 평점 예측
